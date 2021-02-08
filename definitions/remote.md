@@ -1,14 +1,39 @@
 # Remote Add / Remove / Show
 
-* Add
-    * Git remote add is to add a "short name", such as origin , and it can be any name as well, which is like an alias to a URL.
-    * Origin is the usual path of where the remote repo points to.
-    
-* Remove
-    * To remove a remote, navigate to the directory your repository is stored at, and use the git remote rm (or git remote remove ) command followed by the remote name: git remote rm remote-name.
-    * For example, to remove remote named testing , you would type: git remote rm testing.
-    
-* Show
-    * This command help see the fetch and push.
-    * For example, if you want to see which remote master is pushing and fetching from which local master.
-    
+* GIT uses a centralized repository to keep multiple developers in sync.
+* The ``git remote`` command makes it possible to add, remove and manage remote repositories attached to your local repository.
+
+## Add
+
+* Use this command to add a remote repository that your local repo can sync to
+
+```
+git remote add <shortname> <url>
+```
+
+* ``<shortname>`` is the name of the remote, if this argument is ommited, it will default to origin
+
+
+## Remove
+
+* Use this command to remove a remote repository
+* This command does not delete the remote repo, instead, it removed the link between the local and remote repo.
+This means that you will no longer be able to push or pull changes from the remote repo
+
+```
+git remote remove <shortname>
+```
+
+* Ommiting the ``<shortname>`` will default to ``origin``
+* Once you delete the reference to a remote this way, all remote-tracking branches and configuration settings associated with that remote are also deleted.
+
+## show
+
+* The ``git remote show`` command will simply display a list of remotes linked to your repository
+* For example, running the command on this repository displays:
+```
+origin
+```
+
+## Sources and Further Reading
+* https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes
