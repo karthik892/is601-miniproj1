@@ -6,7 +6,7 @@ Examples of Git servers (remote servers that can manage GIT repositories) includ
 * GitHub
 * GitLab
 
-Usually, these remote services provide additional functionality are as bug tracking, pull requests and continuous integration.
+Usually, these remote services provide additional functionality such as bug tracking, pull requests and continuous integration.
 
 You can get started with Git in one of the following ways:
 
