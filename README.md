@@ -7,7 +7,7 @@
 
 ## Contents
 
-* [How Git, Docker, automated testing, and continuous integration can improve the productivity and competitiveness of a company](/productivityCompetitiveness.md)
+* [How Git, Docker, automated testing, and continuous integration can improve the productivity and competitiveness of a company](/GDAC.md)
 * [The gitFlow workflow](/gitFlow.md)
 * [Definitions](/definitions/README.md)
 
