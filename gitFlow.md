@@ -55,7 +55,7 @@ Once develop has acquired enough features for a release (or a predetermined rele
 
 Using a dedicated branch to prepare releases makes it possible for one team to polish the current release while another team continues working on features for the next release. It also creates well-defined phases of development (e.g., it's easy to say, “This week we're preparing for version 4.0,” and to actually see it in the structure of the repository).
 
-## Soures
+## Sources
 
 * https://www.atlassian.com/git/tutorials/comparing-workflows
 * https://datasift.github.io/gitflow/IntroducingGitFlow.html
