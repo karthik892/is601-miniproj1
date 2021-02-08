@@ -1,7 +1,13 @@
-# Master Branch
+# Master Branch (main branch)
 
-* In Git, "master" is naming convention for a branch.
+* When you first create a repository, git will create a default branch called ``main`` 
 
-* After cloning, a project from a remote server, the resulting local repository has a single local branch; which is called "master" branch.
+* This was previously called ``master`` , but services like GitHub have started transitioning away from this due to its reference to slavery
 
-* Hence, we can see master can be seen as a repository's default branch.
+* Unless otherwise specified, any future branch that you create is a "fork" of the ``main`` branch
+
+* When cloning a repository, git will usually checkout the default branch (``main``), you can easily switch to another branch with the ``checkout`` command
+
+## Sources and further reading
+
+* https://www.zdnet.com/article/github-to-replace-master-with-main-starting-next-month/
