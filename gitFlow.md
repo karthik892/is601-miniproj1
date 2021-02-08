@@ -1,5 +1,17 @@
 # The gitFlow workflow
 
+In this document:
+* [Why do we need a workflow](#why-do-we-need-a-workflow)
+* [Popular GIT workflows](#popular-git-workflows)
+* [What is gitFlow](#what-is-gitflow)
+* [Key Benefits](#key-benefits)
+* [How it works](#how-it-works)
+    * [Develop and Master branches](#develop-and-master-branches)
+    * [Feature Branches](#feature-branches)
+    * [Release Branches](#release-branches)
+* [Sources](#sources)
+* [Changelog](#changelog)
+
 ## Why do we need a workflow?
 
 GIT is designed to be extremely flexible. 
@@ -51,11 +63,20 @@ it’s important to develop a Git workflow that is a productivity enhancement fo
 
 ### Release Branches
 
-Once develop has acquired enough features for a release (or a predetermined release date is approaching), you fork a release branch off of develop. Creating this branch starts the next release cycle, so no new features can be added after this point—only bug fixes, documentation generation, and other release-oriented tasks should go in this branch. Once it's ready to ship, the release branch gets merged into master and tagged with a version number. In addition, it should be merged back into develop, which may have progressed since the release was initiated.
+* Once developers has acquired enough features for a release (or a predetermined release date is approaching), you fork a release branch off of develop.
+* Creating this branch starts the next release cycle, so no new features can be added after this point — only bug fixes, documentation generation, and other release-oriented tasks should go in this branch.
+* Once it's ready to ship, the release branch gets merged into master and tagged with a version number.
+* In addition, it should be merged back into develop, which may have progressed since the release was initiated.
 
-Using a dedicated branch to prepare releases makes it possible for one team to polish the current release while another team continues working on features for the next release. It also creates well-defined phases of development (e.g., it's easy to say, “This week we're preparing for version 4.0,” and to actually see it in the structure of the repository).
+* Using a dedicated branch to prepare releases makes it possible for one team to polish the current release while another team continues working on features for the next release.
+* It also creates well-defined phases of development (e.g., it's easy to say, “This week we're preparing for version 4.0,” and to actually see it in the structure of the repository).
 
-## Soures
+## Sources
 
 * https://www.atlassian.com/git/tutorials/comparing-workflows
 * https://datasift.github.io/gitflow/IntroducingGitFlow.html
+
+## Changelog
+
+* 02/07/2021 - Added gitFlow page
+* 02/08/2021 - Added TOC and changelog
