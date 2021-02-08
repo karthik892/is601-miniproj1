@@ -1,5 +1,17 @@
 # The gitFlow workflow
 
+In this document:
+* [Why do we need a workflow](#why-do-we-need-a-workflow)
+* [Popular GIT workflows](#popular-git-workflows)
+* [What is gitFlow](#what-is-gitflow)
+* [Key Benefits](#key-benefits)
+* [How it works](#how-it-works)
+    * [Develop and Master branches](#develop-and-master-branches)
+    * [Feature Branches](#feature-branches)
+    * [Release Branches](#release-branches)
+* [Sources](#sources)
+* [Changelog](#changelog)
+
 ## Why do we need a workflow?
 
 GIT is designed to be extremely flexible. 
@@ -59,3 +71,8 @@ Using a dedicated branch to prepare releases makes it possible for one team to p
 
 * https://www.atlassian.com/git/tutorials/comparing-workflows
 * https://datasift.github.io/gitflow/IntroducingGitFlow.html
+
+## Changelog
+
+02/07/2021 - Added gitFlow page
+02/08/2021 - Added TOC and changelog
