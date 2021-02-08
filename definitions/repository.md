@@ -5,6 +5,9 @@ A repository is a location where all your project files are stored. This can be 
 Examples of Git servers (remote servers that can manage GIT repositories) include:
 * GitHub
 * GitLab
+* BitBucket
+* AWS CodeCommit
+* Apache Allura
 
 Usually, these remote services provide additional functionality such as bug tracking, pull requests and continuous integration.
 
@@ -25,3 +28,4 @@ git clone <remote git url>
 # Sources
 
 * https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository
+* https://itsfoss.com/github-alternatives/
