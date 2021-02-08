@@ -78,5 +78,5 @@ it’s important to develop a Git workflow that is a productivity enhancement fo
 
 ## Changelog
 
-02/07/2021 - Added gitFlow page
-02/08/2021 - Added TOC and changelog
+* 02/07/2021 - Added gitFlow page
+* 02/08/2021 - Added TOC and changelog
