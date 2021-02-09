@@ -9,6 +9,7 @@ In this document:
     * [Develop and Master branches](#develop-and-master-branches)
     * [Feature Branches](#feature-branches)
     * [Release Branches](#release-branches)
+    * [Hotfix Branches](#hotfix-branches)
 * [Sources](#sources)
 * [Changelog](#changelog)
 
@@ -71,6 +72,12 @@ it’s important to develop a Git workflow that is a productivity enhancement fo
 * Using a dedicated branch to prepare releases makes it possible for one team to polish the current release while another team continues working on features for the next release.
 * It also creates well-defined phases of development (e.g., it's easy to say, “This week we're preparing for version 4.0,” and to actually see it in the structure of the repository).
 
+### Hotfix branches
+
+* Maintenance or “hotfix” branches are used to quickly patch production releases.
+* Hotfix branches are a lot like ``release`` branches and ``feature`` branches except they're based on ``master`` instead of ``develop``.
+* This is the only branch that should fork directly off of ``master``.
+* As soon as the fix is complete, it should be merged into both ``master`` and ``develop`` (or the current release branch), and ``master`` should be tagged with an updated version number.
 ## Sources
 
 * https://www.atlassian.com/git/tutorials/comparing-workflows
