@@ -2,8 +2,8 @@
 
 ## Group Members
 
-* Karthik Sankaran
-* Abhinav Kapoor
+* [Karthik Sankaran](https://github.com/karthik892)
+* [Abhinav Kapoor](https://github.com/Abhinavk574)
 
 ## Contents
 
