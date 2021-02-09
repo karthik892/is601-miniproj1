@@ -1,7 +1,13 @@
 # Pull
 
-* The git pull command is used to fetch and download content from a remote repository and immediately update the local repository to match that content.
+* The ``git pull`` command is used to fetch and download content from a remote repository and immediately update the local repository to match that content.
+* The ``git pull`` command first runs ``git fetch`` which downloads content from the specified remote repository. Then a ``git merge`` is executed to merge the remote content refs and heads into a new local merge commit.
 
-* Merging remote upstream changes into your local repository is a common task in Git-based collaboration work flows.
+```
+git pull <remote>
+```
+* If you omit ``<remote>``, the command will pull from ``<origin>``
 
-* For example, Git pull helps us download updated remote master to local master in our webstorm project.
+## Sources and further reading
+
+* https://git-scm.com/docs/git-pull

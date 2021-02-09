@@ -1,7 +1,12 @@
 # Push
 
-* The git push command is used to upload local repository content to a remote repository.
+* The ``git push`` command is used to upload local repository changes (such as commits) to a remote repository.
 
-* Pushing is how you transfer commits from your local repository to a remote repo. It's the counterpart to git fetch , but whereas fetching imports commits to local branches, pushing exports commits to remote branches.
+```
+git push <remote> <branch>
+```
 
-* For example, while write code in local master on webstorm, we use git push command to upload our code to the remote master on github.
+* Ommiting ``remote`` will default to the default remote .i.e. ``origin``
+## Sources and further reading
+
+* https://www.atlassian.com/git/tutorials/syncing/git-push
