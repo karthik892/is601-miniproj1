@@ -49,6 +49,8 @@ it’s important to develop a Git workflow that is a productivity enhancement fo
 
 ## How it works
 
+![GitFlow layout](/img/gitflow.svg)
+
 ### Develop and Master branches
 
 * Instead of a single master branch, this workflow uses two branches to record the history of the project. 
