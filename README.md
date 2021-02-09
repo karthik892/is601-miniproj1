@@ -15,4 +15,4 @@
 
 * 02/07/2021 - Karthik Sankaran - Added readme, gitflow and definition pages for repository, clone, fork, branch, commit, merge
 * 02/07/2021 - Abhinav Kapoor - Added GDAC and definitions for checkout, push pull, remote, status, master branch
-* 02/08/2021 - Misc updates to all pages
+* 02/08/2021 - Karthik Sankaran - Misc updates to all pages
